@@ -22,7 +22,7 @@ fs.readdir("./students", function(err, files) {
 
 	// Present a choice
 	prompt({
-		type: "list",
+		type: "rawlist",
 		name: "choice",
 		message: "Whose info do you want to see?",
 		choices: nameMap,
