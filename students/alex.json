@@ -1,1 +1,5 @@
 alex.json
+alex = {
+"hometown": "Tashkent",
+"birthplace": "mather russia"
+}
