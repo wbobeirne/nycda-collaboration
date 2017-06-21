@@ -22,9 +22,9 @@ fs.readdir("./students", function(err, files) {
 
 	// Present a choice
 	prompt({
-		type: "list",
+		type: "rawlist",
 		name: "choice",
-		message: "Whose info do you want to see?",
+		message: "Select a number for whose info you want to see",
 		choices: nameMap,
 	}).then(function(res) {
 		const choice = res.choice;
